@@ -177,14 +177,14 @@ export default function Portfolio() {
                   <CardContent className="p-6 text-center">
                     <Brain className="w-12 h-12 text-red-400 mx-auto mb-4" />
                     <h3 className="text-xl font-semibold text-white mb-2">AI & Machine Learning</h3>
-                    <p className="text-gray-400">TensorFlow, PyTorch, OpenCV, NLP</p>
+                    <p className="text-gray-400">TensorFlow, PyTorch, OpenCV, AI</p>
                   </CardContent>
                 </Card>
                 <Card className="bg-black/40 border-red-900/30 hover:border-red-600/50 transition-all duration-300">
                   <CardContent className="p-6 text-center">
                     <Cloud className="w-12 h-12 text-red-400 mx-auto mb-4" />
                     <h3 className="text-xl font-semibold text-white mb-2">Cloud & DevOps</h3>
-                    <p className="text-gray-400">AWS, MongoDB, FastAPI</p>
+                    <p className="text-gray-400">AWS, FireBase, RestAPI</p>
                   </CardContent>
                 </Card>
               </div>
@@ -229,7 +229,7 @@ export default function Portfolio() {
                 <div>
                   <h3 className="text-xl font-semibold text-red-400 mb-4">Frontend</h3>
                   <div className="space-y-2">
-                    {["React.js", "Vite.js", "HTML/CSS", "JavaScript"].map((skill, index) => (
+                    {["React.js", "HTML/CSS"].map((skill, index) => (
                       <motion.div
                         key={skill}
                         initial={{ opacity: 0, x: -20 }}
@@ -247,7 +247,7 @@ export default function Portfolio() {
                 <div>
                   <h3 className="text-xl font-semibold text-red-400 mb-4">Backend</h3>
                   <div className="space-y-2">
-                    {["Node.js", "Django", "Express", "FastAPI"].map((skill, index) => (
+                    {["Django", "RestAPI"].map((skill, index) => (
                       <motion.div
                         key={skill}
                         initial={{ opacity: 0, x: -20 }}
@@ -265,7 +265,7 @@ export default function Portfolio() {
                 <div>
                   <h3 className="text-xl font-semibold text-red-400 mb-4">AI/ML & Cloud</h3>
                   <div className="space-y-2">
-                    {["TensorFlow", "PyTorch", "OpenCV", "AWS", "MongoDB", "PostgreSQL"].map((skill, index) => (
+                    {["TensorFlow", "PyTorch", "OpenCV", "AWS", "Firebase", "PostgreSQL"].map((skill, index) => (
                       <motion.div
                         key={skill}
                         initial={{ opacity: 0, x: -20 }}
